@@ -6,11 +6,6 @@ body {
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
-}
-
-.bg-blur {
-  position: relative;
-  height: 100%;
   background: url("assets/img/ToDo\ App.jpg") no-repeat center center;
   background-size: cover;
 }
@@ -22,6 +17,7 @@ body {
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  z-index: 1;
 }
 
 header {
